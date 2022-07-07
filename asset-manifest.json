@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Tourism/static/css/main.8e49c9d7.chunk.css",
-    "main.js": "/Tourism/static/js/main.90dd99f0.chunk.js",
-    "main.js.map": "/Tourism/static/js/main.90dd99f0.chunk.js.map",
+    "main.css": "/Tourism/static/css/main.c3e53c0d.chunk.css",
+    "main.js": "/Tourism/static/js/main.d799ddb2.chunk.js",
+    "main.js.map": "/Tourism/static/js/main.d799ddb2.chunk.js.map",
     "runtime-main.js": "/Tourism/static/js/runtime-main.bfa92496.js",
     "runtime-main.js.map": "/Tourism/static/js/runtime-main.bfa92496.js.map",
     "static/js/2.b79bb511.chunk.js": "/Tourism/static/js/2.b79bb511.chunk.js",
     "static/js/2.b79bb511.chunk.js.map": "/Tourism/static/js/2.b79bb511.chunk.js.map",
     "index.html": "/Tourism/index.html",
-    "precache-manifest.cc4835a386442d6192a58c98eae438c2.js": "/Tourism/precache-manifest.cc4835a386442d6192a58c98eae438c2.js",
+    "precache-manifest.dc263e3f214329734942eb38a8b129dc.js": "/Tourism/precache-manifest.dc263e3f214329734942eb38a8b129dc.js",
     "service-worker.js": "/Tourism/service-worker.js",
-    "static/css/main.8e49c9d7.chunk.css.map": "/Tourism/static/css/main.8e49c9d7.chunk.css.map",
+    "static/css/main.c3e53c0d.chunk.css.map": "/Tourism/static/css/main.c3e53c0d.chunk.css.map",
     "static/js/2.b79bb511.chunk.js.LICENSE.txt": "/Tourism/static/js/2.b79bb511.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bfa92496.js",
     "static/js/2.b79bb511.chunk.js",
-    "static/css/main.8e49c9d7.chunk.css",
-    "static/js/main.90dd99f0.chunk.js"
+    "static/css/main.c3e53c0d.chunk.css",
+    "static/js/main.d799ddb2.chunk.js"
   ]
 }
