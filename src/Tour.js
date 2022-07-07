@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Tour = ({ image, info, price, name }) => {
+const Tour = ({ id, image, info, price, name, removeTour}) => {
   const [finalInfo, setFinalInfo] = useState(info.substring(0, 200));
   const [toggle, setToggle] = useState("Read more");
   return (
@@ -15,7 +15,7 @@ const Tour = ({ image, info, price, name }) => {
           {finalInfo}{" "}
           <button
             onClick={() => {
-              if (toggle == "Show less") {
+              if (toggle === "Show less") {
                 setToggle("Read more");
                 setFinalInfo(info.substring(0, 200));
               } else {
@@ -27,7 +27,7 @@ const Tour = ({ image, info, price, name }) => {
             {toggle}
           </button>
         </p>
-        <button className="delete-btn">Not Interested</button>
+        <button className="delete-btn" onClick={()=>{removeTour(id)}}>Not Interested</button>
       </footer>
     </article>
   );
