@@ -12,8 +12,9 @@ function App() {
     setLoading(true)
     let res = await fetch(url)
     let data = await res.json();
-    console.log(data)
-
+    // console.log(data)
+    setTours(data)
+    setLoading(false)
   }
 
     useEffect(()=>{fetchData()},[])
@@ -26,7 +27,7 @@ function App() {
     </main>
   }
   return <main>
-    <Tours>
+    <Tours tours={tours}>
       
     </Tours>
   </main>
